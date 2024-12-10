@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.59" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme="dark"] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://xiaocaicoding.cn/zh/slides.html"><meta property="og:site_name" content="小蔡coding"><meta property="og:title" content="幻灯片页"><meta property="og:description" content="slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。 作者 Mr.Hope. 请滚动鼠标滚轮进入下一页 标注幻灯片 👇 (#/1/1) -- 标注幻灯片 使用 --- 标注水平幻灯片 在水平幻灯片中使用 -- 分割垂直幻灯片 使用 在幻灯片上添加属性 使用 在前一个 HTML 元素上添加属性 Markdown 你可以在幻灯片中使用 M..."><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><meta property="og:updated_time" content="2022-12-31T12:07:23.000Z"><meta property="article:modified_time" content="2022-12-31T12:07:23.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"幻灯片页","image":[""],"dateModified":"2022-12-31T12:07:23.000Z","author":[]}</script><title>幻灯片页 | 小蔡coding</title><meta name="description" content="slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。 作者 Mr.Hope. 请滚动鼠标滚轮进入下一页 标注幻灯片 👇 (#/1/1) -- 标注幻灯片 使用 --- 标注水平幻灯片 在水平幻灯片中使用 -- 分割垂直幻灯片 使用 在幻灯片上添加属性 使用 在前一个 HTML 元素上添加属性 Markdown 你可以在幻灯片中使用 M...">
+    <link rel="preload" href="/assets/style-DLjP4nne.css" as="style"><link rel="stylesheet" href="/assets/style-DLjP4nne.css">
+    <link rel="modulepreload" href="/assets/app-CIm7EyhH.js"><link rel="modulepreload" href="/assets/slides.html-BT8U6jit.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    
+  </head>
+  <body>
+    <div id="app"><!----></div>
+    <script type="module" src="/assets/app-CIm7EyhH.js" defer></script>
+  </body>
+</html>
